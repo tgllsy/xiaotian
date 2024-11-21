@@ -1,0 +1,1644 @@
+{
+    "fingerprint": [
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "pass",
+                "email",
+                "user",
+                "Content-Type: application/json"
+            ],
+            "type": "敏感内容",
+            "describe": "账号, 密码, 邮箱",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "gmsfhm",
+                "Content-Type: application/json"
+            ],
+            "type": "敏感内容",
+            "describe": "身份号",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "cjrsfzh",
+                "Content-Type: application/json"
+            ],
+            "type": "敏感内容",
+            "describe": "身份号",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "tel",
+                "account",
+                "userName",
+                "mailAccount",
+                "Content-Type: application/json"
+            ],
+            "type": "敏感内容",
+            "describe": "手机, 用户名, 邮件",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "newPws",
+                "userName"
+            ],
+            "type": "敏感内容",
+            "describe": "修改密码",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "newpassword",
+                "actionid"
+            ],
+            "type": "敏感内容",
+            "describe": "修改密码",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "username",
+                "newpassword"
+            ],
+            "type": "敏感内容",
+            "describe": "修改密码",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "password",
+                "name",
+                "userid",
+                "Content-Type: application/json"
+            ],
+            "type": "敏感内容",
+            "describe": "账号, 密码",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "name",
+                "realName",
+                "email",
+                "phone",
+                "Content-Type: application/json"
+            ],
+            "type": "敏感内容",
+            "describe": "账号, 邮箱， 收集",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "description",
+                "name\"",
+                "message\"",
+                "Type\"",
+                "Content-Type: application/json"
+            ],
+            "type": "敏感内容",
+            "describe": "账号",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "person",
+                "mobilPhone",
+                "id",
+                "status"
+            ],
+            "type": "敏感内容",
+            "describe": "账号, 手机",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "email",
+                "phone",
+                "pwd",
+                "id",
+                "name",
+                "Content-Type: application/json"
+            ],
+            "type": "敏感内容",
+            "describe": "手机, 用户名, 邮件, 密码",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "personName",
+                "phoneNo",
+                "deptName"
+            ],
+            "type": "敏感内容",
+            "describe": "手机, 用户名",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "sfzhm",
+                "total",
+                "rows"
+            ],
+            "type": "敏感内容",
+            "describe": "身份证",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "keyHash",
+                "idCard",
+                "partment"
+            ],
+            "type": "敏感内容",
+            "describe": "身份证",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "Idcard",
+                "Name",
+                "id",
+                "status",
+                "address"
+            ],
+            "type": "敏感内容",
+            "describe": "身份证",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "ALI_ACCESS_ID",
+                "ALI_ACCESS_KEY"
+            ],
+            "type": "敏感内容",
+            "describe": "云KEY",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "ACCESSID",
+                "ACCESSKEY"
+            ],
+            "type": "敏感内容",
+            "describe": "云KEY",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "AccessKey ID",
+                "AccessKey Secret"
+            ],
+            "type": "敏感内容",
+            "describe": "云KEY",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "accessKeyId",
+                "accessKeySecret"
+            ],
+            "type": "敏感内容",
+            "describe": "云KEY",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "ACCESS_ID",
+                "ACCESS_KEY"
+            ],
+            "type": "敏感内容",
+            "describe": "云KEY",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "SSOusername",
+                "SSOpassword"
+            ],
+            "type": "敏感内容",
+            "describe": "云KEY",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "oss://"
+            ],
+            "type": "敏感内容",
+            "describe": "云KEY",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "UC_DBHOST",
+                "UC_DBUSER",
+                "UC_KEY",
+                "UC_API"
+            ],
+            "type": "敏感内容",
+            "describe": "云KEY",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "jdbc:(mysql|h2|oracle|sqlserver|jtds:sqlserver):"
+            ],
+            "type": "敏感内容",
+            "describe": "JDBC泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "System.Data.SqlClient"
+            ],
+            "type": "敏感内容",
+            "describe": "JDBC泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "Data.PassportContext"
+            ],
+            "type": "敏感内容",
+            "describe": "JDBC泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "mysql.username",
+                "mysql.password",
+                "mysql.url"
+            ],
+            "type": "敏感内容",
+            "describe": "JDBC泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "jdbc.username",
+                "jdbc.password"
+            ],
+            "type": "敏感内容",
+            "describe": "JDBC泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "mssql.jdbc",
+                "mssql.user"
+            ],
+            "type": "敏感内容",
+            "describe": "JDBC泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+            ],
+            "type": "敏感内容",
+            "describe": "JDBC泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "EMAIL_HOST_USER",
+                "EMAIL_HOST_PASSWORD"
+            ],
+            "type": "敏感内容",
+            "describe": "邮箱凭证泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "mail.username",
+                "mail.password"
+            ],
+            "type": "敏感内容",
+            "describe": "邮箱凭证泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "sender.username",
+                "sender.password"
+            ],
+            "type": "敏感内容",
+            "describe": "邮箱凭证泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "mailUserPwd",
+                "mailUserName"
+            ],
+            "type": "敏感内容",
+            "describe": "邮箱凭证泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "mail_user",
+                "mail_pass"
+            ],
+            "type": "敏感内容",
+            "describe": "邮箱凭证泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "EMAIL_PSWD",
+                "EMAIL_USER"
+            ],
+            "type": "敏感内容",
+            "describe": "邮箱凭证泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "EMAIL_LOGIN_NAME",
+                "EMAIL_LOGIN_PASSWD"
+            ],
+            "type": "敏感内容",
+            "describe": "邮箱凭证泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "email_username",
+                "email_password"
+            ],
+            "type": "敏感内容",
+            "describe": "邮箱凭证泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "smtp_username",
+                "smtp_password"
+            ],
+            "type": "敏感内容",
+            "describe": "邮箱凭证泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "mailuser",
+                "mailPassword"
+            ],
+            "type": "敏感内容",
+            "describe": "邮箱凭证泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "mailServerUsername",
+                "mailServerPassword"
+            ],
+            "type": "敏感内容",
+            "describe": "邮箱凭证泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "WebMail.UserName",
+                "WebMail.Password"
+            ],
+            "type": "敏感内容",
+            "describe": "邮箱凭证泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "ftpUsername",
+                "ftpPassword"
+            ],
+            "type": "敏感内容",
+            "describe": "FTP泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "FTP_USER",
+                "FTP_ADDR",
+                "FTP_PASS"
+            ],
+            "type": "敏感内容",
+            "describe": "FTP泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "ssh://"
+            ],
+            "type": "敏感内容",
+            "describe": "SSH泄漏",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "access_key_id",
+                "secret_access_key"
+            ],
+            "type": "敏感内容",
+            "describe": "云KEY",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "name",
+                "sfzh",
+                "Content-Type: application/json"
+            ],
+            "type": "敏感内容",
+            "describe": "身份证",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "msg",
+                "mobile\"",
+                "Content-Type: application/json"
+            ],
+            "type": "敏感内容",
+            "describe": "手机号码",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "accessKeyId",
+                "accessSecret"
+            ],
+            "type": "敏感内容",
+            "describe": "云KEY",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "\"accessKeyId\""
+            ],
+            "type": "敏感内容",
+            "describe": "云KEY",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "accessKeyId",
+                "secretAccessKey"
+            ],
+            "type": "敏感内容",
+            "describe": "云KEY",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "password:",
+                "HOST:",
+                "NAME:"
+            ],
+            "type": "敏感内容",
+            "describe": "账号, 密码, IP",
+            "isImportant": false,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "管理员密码",
+                "管理员账号"
+            ],
+            "type": "敏感内容",
+            "describe": "管理员账号、管理员密码",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "'admin_pwd'",
+                "'admin_user'"
+            ],
+            "type": "敏感内容",
+            "describe": "管理员账号、管理员密码",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "<pwd>",
+                "<admin_user>"
+            ],
+            "type": "敏感内容",
+            "describe": "管理员账号、管理员密码",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "\"admin_pwd\"",
+                "\"admin_user\""
+            ],
+            "type": "敏感内容",
+            "describe": "管理员账号、管理员密码",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "(initPassword\\s*[:=]\\s*\"?|\"initPassword\"\\s*:\\s*\"?|\"初始密码\"\\s*:\\s*\"?)[\"]?[^\"\\s]+[\"]?|\\b初始密码是\\s+[^\"\\s]+"
+            ],
+            "type": "敏感内容",
+            "describe": "初始密码",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "medium"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "server",
+                "pwd",
+                "database",
+                "user"
+            ],
+            "type": "敏感内容",
+            "describe": "账号, 密码, IP",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "Authentication failed",
+                "user",
+                "__construct"
+            ],
+            "type": "敏感内容",
+            "describe": "账号, 密码, IP",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "/graphiql"
+            ],
+            "type": "敏感内容",
+            "describe": "GraphQL API",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "__graphiql"
+            ],
+            "type": "敏感内容",
+            "describe": "GraphQL API",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "user=='",
+                "password=='"
+            ],
+            "type": "敏感内容",
+            "describe": "账号, 密码",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "userName =>",
+                "password =>",
+                "info"
+            ],
+            "type": "敏感内容",
+            "describe": "账号, 密码",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "VPN服务器地址",
+                "用户名",
+                "密码"
+            ],
+            "type": "敏感内容",
+            "describe": "账号, 密码, IP",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "username",
+                "password",
+                "jdbc:"
+            ],
+            "type": "敏感内容",
+            "describe": "账号, 密码, IP",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "String username",
+                "String password",
+                "="
+            ],
+            "type": "敏感内容",
+            "describe": "账号, 密码, IP",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "jdbc.url",
+                "://",
+                "username",
+                "password"
+            ],
+            "type": "敏感内容",
+            "describe": "账号, 密码, IP",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "身份证号码",
+                "姓名",
+                "公司",
+                "Content-Type: application/json"
+            ],
+            "type": "敏感内容",
+            "describe": "账号, 身份证",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "secret_key",
+                "address"
+            ],
+            "type": "敏感内容",
+            "describe": "账号, 密码",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "secret_key",
+                "api_key"
+            ],
+            "type": "敏感内容",
+            "describe": "账号, 密码",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "(=deleteMe|rememberMe=)"
+            ],
+            "type": "敏感内容",
+            "describe": "shiro",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "(eyJ[A-Za-z0-9_-]{10,}\\.[A-Za-z0-9._-]{10,}|eyJ[A-Za-z0-9_\\/+-]{10,}\\.[A-Za-z0-9._\\/+-]{10,})"
+            ],
+            "type": "敏感内容",
+            "describe": "JSON Web Token",
+            "isImportant": false,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "((swagger-ui.html)|(\\\"swagger\\\":)|(Swagger UI)|(swaggerUi)|(swaggerVersion))"
+            ],
+            "type": "敏感内容",
+            "describe": "Swagger UI",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "(ueditor\\.(config|all)\\.js)"
+            ],
+            "type": "敏感内容",
+            "describe": "Ueditor",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "(Druid Stat Index)"
+            ],
+            "type": "敏感内容",
+            "describe": "Druid",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "(11|12|13|14|15|21|22|23|31|32|33|34|35|36|37|41|42|43|44|45|46|50|51|52|53|54|61|62|63|64|65|71|81|82)\\d{4}(19|20)\\d{2}((0[1-9])|(1[0-2]))((0[1-9])|([12]\\d)|(3[01]))\\d{3}([0-9Xx])"
+            ],
+            "type": "敏感内容",
+            "describe": "身份证",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "(((access)(|-|_)(key)(|-|_)(id|secret))|(LTAI[a-z0-9]{12,20}))"
+            ],
+            "type": "敏感内容",
+            "describe": "Cloud Key",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "GOOG[\\w\\W]{10,30}"
+            ],
+            "type": "敏感内容",
+            "describe": "Google Cloud",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "AZ[A-Za-z0-9]{34,40}$"
+            ],
+            "type": "敏感内容",
+            "describe": "Microsoft Azure",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "AKID[A-Za-z0-9]{13,20}"
+            ],
+            "type": "敏感内容",
+            "describe": "腾讯云",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "AKIA[A-Za-z0-9]{16}"
+            ],
+            "type": "敏感内容",
+            "describe": "亚马逊云",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "IBM[A-Za-z0-9]{10,40}"
+            ],
+            "type": "敏感内容",
+            "describe": "IBM Cloud",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "OCID[A-Za-z0-9]{10,40}"
+            ],
+            "type": "敏感内容",
+            "describe": "Oracle Cloud",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "LTAI[A-Za-z0-9]{12,20}"
+            ],
+            "type": "敏感内容",
+            "describe": "阿里云",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "AK[\\w\\W]{10,62}"
+            ],
+            "type": "敏感内容",
+            "describe": "华为云",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "'[^\\w](([a-zA-Z]:\\\\(?:\\w+\\\\?)*)|([a-zA-Z]:\\\\(?:\\w+\\\\)*\\w+\\.\\w+))'"
+            ],
+            "type": "敏感内容",
+            "describe": "Windows File/Dir Path",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "((|'|\")(|[\\w]{1,10})([p](ass|wd|asswd|assword))(|[\\w]{1,10})(|'|\")(:|=)(|)('|\")(.*?)('|\")(|,))"
+            ],
+            "type": "敏感内容",
+            "describe": "Password Field",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "(jdbc:[a-z:]+://[a-z0-9\\.\\-_:;=/@?,&]+)"
+            ],
+            "type": "敏感内容",
+            "describe": "JDBC Connection",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "AppSecret",
+                "AppID"
+            ],
+            "type": "敏感内容",
+            "describe": "AppSecret、AppID",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "AppSecret",
+                "AppKey"
+            ],
+            "type": "敏感内容",
+            "describe": "AppSecret、AppKey",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "AppSecret",
+                "AppKey"
+            ],
+            "type": "敏感内容",
+            "describe": "AppSecret、AppKey",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "Corpid",
+                "Corpsecret"
+            ],
+            "type": "敏感内容",
+            "describe": "企业微信Corpid、Corpsecret",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "App_Id",
+                "App_Secret"
+            ],
+            "type": "敏感内容",
+            "describe": "飞书App_Id、App_Secret",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "(javax\\.faces\\.ViewState)"
+            ],
+            "type": "有价值信息",
+            "describe": "Java Deserialization",
+            "isImportant": false,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "((basic [a-z0-9=:_\\+\\/-]{5,100})|(bearer [a-z0-9_.=:_\\+\\/-]{5,100}))"
+            ],
+            "type": "有价值信息",
+            "describe": "Authorization Header",
+            "isImportant": false,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "(type\\=\\\"file\\\")"
+            ],
+            "type": "有价值信息",
+            "describe": "Upload Form",
+            "isImportant": false,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "(([a-z0-9]+[_|\\.])*[a-z0-9]+@([a-z0-9]+[-|_|\\.])*[a-z0-9]+\\.((?!js|css|jpg|jpeg|png|ico)[a-z]{2,5}))"
+            ],
+            "type": "有价值信息",
+            "describe": "Email",
+            "isImportant": false,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "[^\\w]((?:(?:\\+|00)86)?1(?:(?:3[\\d])|(?:4[5-79])|(?:5[0-35-9])|(?:6[5-7])|(?:7[0-8])|(?:8[\\d])|(?:9[189]))\\d{8})[^\\w]"
+            ],
+            "type": "有价值信息",
+            "describe": "Chinese Mobile Number",
+            "isImportant": false,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "([京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼港澳台]){1,2}(ICP备|ICP证|公网安备)\\d{4,8}号(-\\d+)?"
+            ],
+            "type": "有价值信息",
+            "describe": "ICP备案",
+            "isImportant": false,
+            "isOpen": true,
+            "accuracy": "low"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "(技术支持\\s*[:|：|by|]\\s*|Powered by\\s*)([一-龥\\w\\s]+)"
+            ],
+            "type": "有价值信息",
+            "describe": "技术支持",
+            "isImportant": false,
+            "isOpen": true,
+            "accuracy": "low"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "©\\s*(?:\\d{4}[-–]?\\d{0,4})?\\s*([一-龥\\w\\s]+)"
+            ],
+            "type": "有价值信息",
+            "describe": "版权©",
+            "isImportant": false,
+            "isOpen": true,
+            "accuracy": "low"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "[^0-9]((127\\.0\\.0\\.1)|(10\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})|(172\\.((1[6-9])|(2\\d)|(3[01]))\\.\\d{1,3}\\.\\d{1,3})|(192\\.168\\.\\d{1,3}\\.\\d{1,3}))"
+            ],
+            "type": "有价值信息",
+            "describe": "Internal IP Address",
+            "isImportant": false,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "(^([a-fA-F0-9]{2}(:[a-fA-F0-9]{2}){5})|[^a-zA-Z0-9]([a-fA-F0-9]{2}(:[a-fA-F0-9]{2}){5}))"
+            ],
+            "type": "有价值信息",
+            "describe": "MAC Address",
+            "isImportant": false,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "regular",
+            "location": "body",
+            "keyword": [
+                "\".*Required .{1,18} parameter.*\""
+            ],
+            "type": "有价值信息",
+            "describe": "缺少参数",
+            "isImportant": false,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "Content-Type: application/json",
+                "is not present"
+            ],
+            "type": "有价值信息",
+            "describe": "缺少参数",
+            "isImportant": false,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "body",
+            "keyword": [
+                "Content-Type: application/json",
+                "缺少参数"
+            ],
+            "type": "有价值信息",
+            "describe": "缺少参数",
+            "isImportant": false,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "urlPath",
+            "keyword": [
+                "/graphql"
+            ],
+            "type": "敏感路径",
+            "describe": "GraphQL",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "urlPath",
+            "keyword": [
+                "/graphiql"
+            ],
+            "type": "敏感路径",
+            "describe": "GraphQL",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "urlPath",
+            "keyword": [
+                "/swagger-resources"
+            ],
+            "type": "敏感路径",
+            "describe": "OpenAPI-Swagger",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "urlPath",
+            "keyword": [
+                "/swagger/"
+            ],
+            "type": "敏感路径",
+            "describe": "OpenAPI-Swagger",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "urlPath",
+            "keyword": [
+                "/mappings"
+            ],
+            "type": "敏感路径",
+            "describe": "SpringbootActuator",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "urlPath",
+            "keyword": [
+                "/actuator"
+            ],
+            "type": "敏感路径",
+            "describe": "SpringbootActuator",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "urlPath",
+            "keyword": [
+                "/graphiql"
+            ],
+            "type": "敏感路径",
+            "describe": "GraphQL API",
+            "isImportant": true,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "urlPath",
+            "keyword": [
+                "vue",
+                "ts",
+                "min",
+                "png",
+                "jpg",
+                "jpeg",
+                "gif",
+                "bmp",
+                "css",
+                "woff",
+                "woff2",
+                "ttf",
+                "otf",
+                "ttc",
+                "svg",
+                "psd",
+                "exe",
+                "zip",
+                "rar",
+                "7z",
+                "msi",
+                "tar",
+                "gz",
+                "mp3",
+                "mp4",
+                "mkv",
+                "swf",
+                "iso",
+                "ico",
+                "gif"
+            ],
+            "type": "白名单URL后缀",
+            "isImportant": false,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "urlPath",
+            "keyword": [
+                "zh-CN",
+                "image/",
+                "images/",
+                "text/css",
+                "text/javascript",
+                ":",
+                "：",
+                "%",
+                "@",
+                "//",
+                "&",
+                "=",
+                "~",
+                ".css",
+                ",",
+                "??",
+                "<",
+                ">",
+                "[",
+                "]",
+                "(",
+                ")",
+                "}",
+                "{",
+                "`",
+                "^",
+                "'",
+                " ",
+                "+",
+                "|"
+            ],
+            "type": "白名单路径",
+            "isImportant": false,
+            "isOpen": true,
+            "accuracy": "high"
+        },
+        {
+            "match": "keyword",
+            "location": "urlPath",
+            "keyword": [
+                ".baidu.com",
+                ".google.com",
+                ".bing.com",
+                ".yahoo.com",
+                ".aliyun.com",
+                ".alibaba.com",
+                ".chrome.",
+                ".mozilla.",
+                ".google-analytics.",
+                ".google.",
+                ".googleadservices.",
+                ".googleadsserving.",
+                ".googleapis.",
+                ".googlesyndication.",
+                ".googletagmanager.",
+                ".googleusercontent.",
+                ".gstatic.",
+                ".baidustatic.",
+                ".bdstatic.",
+                ".sogou.",
+                ".sogoucdn.",
+                ".microsoftonline.",
+                ".microsoft.",
+                ".bing.",
+                ".csdnimg.",
+                ".csdn.",
+                ".51cto.",
+                ".cnblogs.",
+                ".zhihu.",
+                ".freebuf.",
+                ".huoxian.",
+                ".aliyun.",
+                ".butian.",
+                ".anquanke.",
+                ".threatbook.",
+                ".geetest.",
+                ".1rx.",
+                ".4dex.",
+                ".a-mo.",
+                ".adingo.",
+                ".adnxs.",
+                ".adsrvr.",
+                ".adtelligent.",
+                ".betweendigital.",
+                ".casalemedia.",
+                ".cloudflare.",
+                ".creativecdn.",
+                ".criteo.",
+                ".crwdcntrl.",
+                ".doubleclick.",
+                ".e-planning.",
+                ".emxdgt.",
+                ".freemyip.",
+                ".ladsp.",
+                ".live.",
+                ".mediarithmics.",
+                ".mookie1.",
+                ".onetag-sys.",
+                ".openx.",
+                ".pki.",
+                ".richaudience.",
+                ".rubiconproject.",
+                ".sddan.",
+                ".sfx.",
+                ".smartadserver.",
+                ".smilewanted.",
+                ".taboola.",
+                ".tingyun.",
+                ".tmyzer.",
+                ".wappalyzer.",
+                ".zemanta."
+            ],
+            "type": "白名单域名",
+            "isImportant": false,
+            "isOpen": true,
+            "accuracy": "high"
+        }
+    ]
+}
