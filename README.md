@@ -38,7 +38,7 @@ python.exe .\xiaotiandog.py -f 1.txt  -o -i -j
 不需要跑指纹，只需要跑js的只要运行`JSExtractor.py` 文件便可
 
 
-![](.\image\1.PNG)
+![](\image\1.PNG)
 
 ## 已知问题
 1. 未采用线程队列Queue处理结果，可能会出现一些问题，~~大概、也许可能吧。~~
